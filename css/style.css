@@ -1,0 +1,157 @@
+.headerr{
+    height: 70px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    /* align-items: center; */
+}
+.icon-menu{
+    color: rgba(255, 255, 255, 0.7);
+}
+.input-group-menu{
+    border-radius: 2px;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hover-menu:hover{
+    background-color: rgb(29, 27, 27);
+    color: white;
+    text-decoration: none;    
+    height: 60px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.input-group-menu:checked{
+    border: 1px solid gold;
+}
+.border-left{
+    border-right: black 0.5px solid;
+}
+.menu{
+    color:white;
+    font-size: 18px;
+}
+.borderr{
+    border-right: 1px solid gray;
+}
+h1{
+    color: rgb(245, 197, 24);
+}
+.bg-color{
+    background-color: black;
+}
+li{
+    list-style: none;
+}
+.movie-list{
+    display: flex;
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-menu{
+    font-weight: bold;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section2 */
+.info{
+    padding: 5px 55px;
+}
+.uzbek-movie-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+.movie-box{
+    width: 15%;
+    margin-bottom: 40px;
+    transition: all 1s ease;
+
+}
+.movie-box:hover .movie-img{
+    opacity: 0.3;
+    cursor: pointer;
+    
+}
+.movie-box:hover .movie-play-icon{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.movie-name{
+    color: white;
+    font-size: 18px;
+    height: 55px;
+}
+.movie-img{
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    object-position: center;
+}
+.movie-img-box{
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+.movie-ganre{
+    color: rgb(255, 136, 0);
+    font-size: 18px;
+}
+.movie-play-icon{
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+.footer_i{
+    width: 300px;
+    margin: 100px auto 40px auto;
+}
+.footer_c{
+    width: 620px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_c>a:hover{
+    color: yellow;
+    text-decoration-style: solid;
+}
+i{
+    color: white;
+    opacity: 0.7;
+}
+.c-white{
+    color: white;
+}
+.footer_h6{
+    color: white;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.amazon-icon{
+    color: white;
+    margin: 30px auto;
+}

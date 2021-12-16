@@ -1,314 +1,273 @@
-var movies = [
-  // UZBEK FILMS
+var cinema = [
     {
       "id":1,
-      "name": "IKKI DO`ST (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 1-qism ( o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/5/61658844.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=uze7JOM9wOQ",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/ikki_do_39_st_milliy_kino_hd/1-1-0-572",
+      "ImageURL": "	https://i.ytimg.com/vi/Zfy64iYRQrA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBgLNCIvQMsJcz8k0bs3ZGg4QwGFA",
+      "cinema_play": "https://www.youtube.com/watch?v=Zfy64iYRQrA&t=2s",
       "language": "O`zbek tilida"
       
     },
     {
       "id":2,
-      "name": "BOSH KO'TARGAN BOJALAR (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 2-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/5/44960267.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=72o_NS-kM4Y",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/bosh_ko_39_targan_bojalar_milliy_kino_hd/1-1-0-557",
+      "ImageURL": "https://i.ytimg.com/vi/IaF8AXw-7sU/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBvnCg9u_wagrYSxg4GO6ScoCoV5g",
+      "cinema_play": "https://www.youtube.com/watch?v=IaF8AXw-7sU",
       "language": "O`zbek tilida"
       },
       {
         "id":3,
-      "name": "YOLG`IZ BO`RI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 3-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/5/s53896546.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=8GJwoFd1BpE",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/yolg_39_iz_bo_39_ri_milliy_kino_hd/1-1-0-533",
+      "ImageURL": "	https://i.ytimg.com/vi/M8qAGEnSSPo/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLB55RMRdp0ThsSCIxbefi9xQONaGg",
+      "cinema_play": "https://www.youtube.com/watch?v=M8qAGEnSSPo",
       "language": "O`zbek tilida"
       },
       {
         "id":4,
-      "name": "IBLIS O'YINI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 4-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "		http://www.yoshlar.com/_pu/4/s60472281.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=BehnHjgW8hM",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/iblis_o_39_yini_uzbek_kino_hd/1-1-0-480",
+      "ImageURL": "https://i.ytimg.com/vi/Og6bdwDLiOU/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCF0Pzpzd7L8dsw4IFRcfXExfKtdA",
+      "cinema_play": "https://www.youtube.com/watch?v=Og6bdwDLiOU",
       "language": "O`zbek tilida"
       },
       {
         "id":5,
-      "name": "QO'QON SHAMOLI HD (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 5-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/4/s88150854.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=CYAz7K3Whqc",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/qo_39_qon_shamoli_hd/1-1-0-426",
+      "ImageURL": "	https://i.ytimg.com/vi/x6jWwKdFBE0/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLChpfIgR7fWTaAANoD4tGqofWQjAw",
+      "cinema_play": "https://www.youtube.com/watch?v=CYAz7K3Whqc",
       "language": "O`zbek tilida"
       },
       {
         "id":6,
-        "name": "OJIZ BANDA (o'zbek film) ",
-        "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+        "name": "Maktab 6-qism (o'zbek serial) ",
+        "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
         "ganre": ['camedy ',' detective'],
-        "ImageURL": "	http://www.yoshlar.com/_pu/4/s18057829.jpg",
-        "movie_play": "https://www.youtube.com/watch?v=8e69_FLUR0E",
-        "download": "http://www.yoshlar.com/kino/uzbekskij/ojiz_banda_uzbek_kino_hd/1-1-0-422",
+        "ImageURL": "		https://i.ytimg.com/vi/9_yDsGfYIiU/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAohwxrYe3mZ72L7JnFFhXErEI71g",
+        "cinema_play": "https://www.youtube.com/watch?v=9_yDsGfYIiU",
         "language": "O`zbek tilida"
       },
       {
         "id":7,
-        "name": "ALDANGAN QIZ (o'zbek film) ",
-        "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+        "name": "Maktab 7-qismi (o'zbek serial) ",
+        "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
         "ganre": ['camedy ',' detective'],
-        "ImageURL": "http://www.yoshlar.com/_pu/4/s00924265.jpg",
-        "movie_play": "https://www.youtube.com/watch?v=7gRtraNVYRo",
-        "download": "http://www.yoshlar.com/kino/uzbekskij/aldangan_qiz_uzbek_kino_hd/1-1-0-406",
+        "ImageURL": "https://i.ytimg.com/vi/Pf0ApX5Jw08/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAPME_ZVwQyxc_mqzyRcpiugZDJDA",
+        "cinema_play": "https://www.youtube.com/watch?v=Pf0ApX5Jw08",
         "language": "O`zbek tilida"
       },
       {
         "id":8,
-      "name": "SOTILGAN NOMUS (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 8-qism(o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "		http://www.yoshlar.com/_pu/4/s70859235.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=SpPmZJY663s",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/sotilgan_nomus_uzbek_kino_hd/1-1-0-400",
+      "ImageURL": "	https://i.ytimg.com/vi/DkP3O6Ma6h8/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLABzsBgGpFegu--eUqEVbW9kk3bOQ",
+      "cinema_play": "https://www.youtube.com/watch?v=DkP3O6Ma6h8",
       "language": "O`zbek tilida"
       },
       {
         "id":9,
-      "name": "MUHABBAT RESTORANI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 9-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s34382340.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=RsK1FoM50m0",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/muhabbat_restorani_uzbek_kino_hd/1-1-0-395",
+      "ImageURL": "		https://i.ytimg.com/vi/5a4FZ1glcxY/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBVYz-wlqIHxrm_IGnpK2ySwCq16w",
+      "cinema_play": "https://www.youtube.com/watch?v=5a4FZ1glcxY",
       "language": "O`zbek tilida"
       },
       {
         "id":10,
-      "name": "MENING DADAM (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 10-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s12925124.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=6BQWQrmCw-k",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/mening_dadam_ozbek_kino/1-1-0-390",
+      "ImageURL": "	https://i.ytimg.com/vi/4htlYHhYKTQ/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAKL5mCeODTFBRsYx9T-UIOlockKw",
+      "cinema_play": "https://www.youtube.com/watch?v=4htlYHhYKTQ",
       "language": "O`zbek tilida"
       },
       {
         "id":11,
-      "name": "ONASINI ERKASI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 11-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s62906721.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=8aKp2AVj0h4",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/onasini_erkasi_o_39_zbek_kino/1-1-0-374",
+      "ImageURL": "https://i.ytimg.com/vi/VU3UURqViQk/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBRKcTuZ9CjJgiH_XCalcco6q7A9w",
+      "cinema_play": "https://www.youtube.com/watch?v=VU3UURqViQk",
       "language": "O`zbek tilida"
       },
     {
       "id":12,
-      "name": "KOKTEYL (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 12-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s95240466.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=fgNYVZTLWNI",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/kokteyl_ozbek_kino/1-1-0-371",
+      "ImageURL": "https://i.ytimg.com/vi/wWT-AYVqTvA/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLDebbdxiCNmEfnegcbGQUUykkw-ig",
+      "cinema_play": "https://www.youtube.com/watch?v=wWT-AYVqTvA",
       "language": "O`zbek tilida"
     },
     {
       "id":13,
-      "name": "UNUTILGAN BAXT (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 13-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s00049897.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=d_Ge08tRJx0",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/unutilgan_baxt_ozbek_kino/1-1-0-370",
-      "language": "O`zbek tilida"
-    },
-    {
-      "id":13,
-      "name": "GO'DAK NOLASI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
-      "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s28812055.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=nCgKQ8SUEUU",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/godak_nolasi_ozbek_kino/1-1-0-369",
+      "ImageURL": "https://i.ytimg.com/vi/kRqv9qj5GAQ/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAZXa0ZzeD3vB-fJrHTI5dd4LJ1pw",
+      "cinema_play": "https://www.youtube.com/watch?v=kRqv9qj5GAQ",
       "language": "O`zbek tilida"
     },
     {
       "id":14,
-      "name": "O'G'IRLANMAGAN KELIN (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 14-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s18528864.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=r6uWz2doY-c",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/ogirlanmagan_kelin_ozbek_kino/1-1-0-366",
+      "ImageURL": "	https://i.ytimg.com/vi/4htlYHhYKTQ/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAKL5mCeODTFBRsYx9T-UIOlockKw	",
+      "cinema_play": "https://www.youtube.com/watch?v=slYEdGfyG18&t=35s",
       "language": "O`zbek tilida"
     },
     {
       "id":15,
-      "name": "MAQSAD (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Maktab 15-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s98467786.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=uKtkj9kl1Pk",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/maqsad_ozbek_kino/1-1-0-364",
+      "ImageURL": "https://i.ytimg.com/vi/4htlYHhYKTQ/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAKL5mCeODTFBRsYx9T-UIOlockKw",
+      "cinema_play": "https://www.youtube.com/watch?v=4htlYHhYKTQ&t=254s",
       "language": "O`zbek tilida"
     },
     {
       "id":16,
-      "name": "NAYRANG (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Qo'shnilar 1-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s24721900.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=x6CRAocb7KY",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/nayrang_ozbek_kino/1-1-0-363",
+      "ImageURL": "https://i.ytimg.com/vi/AZbgidGtr5U/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCgx7tS_OWvVb0W8HIY5MzTjEUHwg",
+      "cinema_play": "https://www.youtube.com/watch?v=AZbgidGtr5U",
       "language": "O`zbek tilida"
     },
     {
       "id":17,
-      "name": "ZO'R MAHALLA (MUSIQIY KINO) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Qo'shnilar 2-qism (Ozbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s23972423.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=SKR8lehFWvs",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/zor_mahalla_musiqiy_kino/1-1-0-358",
+      "ImageURL": "https://i.ytimg.com/vi/73rrL6fxyo8/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBzatpRgjaV4gKhEAprWXNSZX1z-A",
+      "cinema_play": "https://www.youtube.com/watch?v=73rrL6fxyo8",
       "language": "O`zbek tilida"
     },
     {
       "id":18,
-      "name": "SHURUK ELEKTRIK (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Qo'shnilar 3-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s54106464.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=w9PC_6BcL3M",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/shuruk_elektrik_musiqiy_komediya/1-1-0-356",
+      "ImageURL": "https://i.ytimg.com/vi/7uobbg2UnPA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAnrzZlBYWw3Vz2Ula1RC9MOWfvXg",
+      "cinema_play": "https://www.youtube.com/watch?v=7uobbg2UnPA",
       "language": "O`zbek tilida"
     },
     {
       "id":19,
-      "name": "QORA ZARBA (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Qo'shnilar 4-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "		http://www.yoshlar.com/_pu/3/s98888758.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=0nGpGrij3xo",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/qora_zarba_ozbek_kino/1-1-0-354",
+      "ImageURL": "	https://i.ytimg.com/vi/sbLVIv8ruHk/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCzaJB63juLBd_QPb80oVTIArm4WA",
+      "cinema_play": "https://www.youtube.com/watch?v=sbLVIv8ruHk",
       "language": "O`zbek tilida"
     },
     {
       "id":20,
-      "name": "HALOSKOR (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Qo'shnilar 5-qism (o'zbek serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s28443084.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=RXQvpqPPx90",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/ikki_do_39_st_milliy_kino_hd/1-1-0-572",
+      "ImageURL": "https://i.ytimg.com/vi/lAHgLexX4E4/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBtE4IKfnVwsWzgUiZ-MxosQW-3Xw",
+      "cinema_play": "https://www.youtube.com/watch?v=lAHgLexX4E4",
       "language": "O`zbek tilida"
     },
     {
       "id":21,
-      "name": "DO'STIM HIND (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Avliyo 1-qism (o'zbek film) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/02261540.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=FIPmo-vJh3o",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/dostim_hind_ozbek_kino/1-1-0-347",
+      "ImageURL": "https://i.ytimg.com/vi/MYDScuH9KYE/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLCsN-d_IYrXlIMZRH1ucOevS0Mp_Q",
+      "cinema_play": "https://www.youtube.com/watch?v=MYDScuH9KYE",
       "language": "O`zbek tilida"
     },
     {
       "id":22,
-      "name": "SEN UCHUN MEN (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Avliyo 2-qism (o'zbek film) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s41145671.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=gLXytKc4vME&t=4064s",
-      "download":"http://www.yoshlar.com/kino/uzbekskij/men_terrorchi_emasman_uzbek_kino_hd/1-1-0-619",
+      "ImageURL": "https://i.ytimg.com/vi/MYDScuH9KYE/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLCsN-d_IYrXlIMZRH1ucOevS0Mp_Q",
+      "cinema_play": "https://www.youtube.com/watch?v=gLXytKc4vME&t=4064s",
       "language": "O`zbek tilida"
     },
     {
       "id":23,
-      "name": "SABOT (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Quyosh avlodlari 1-qism (koreys serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s01071449.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=vdxfqLL32FE",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/sabot_ozbek_kino/1-1-0-341",
+      "ImageURL": "	https://i.ytimg.com/vi/Fi5YYy8qlaE/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAG9JItriDKsF-_XqaBJSu7B_zxfQ",
+      "cinema_play": "https://www.youtube.com/watch?v=Fi5YYy8qlaE",
       "language": "O`zbek tilida"
     },
     {
       "id":24,
-      "name": "NAMASTE MUHABBAT (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Quyosh avlodlari 4-qism (koreys seriali) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s93326593.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=gIuNJifMFVs",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/namaste_muhabbat_ozbek_kino/1-1-0-339",
+      "ImageURL": "https://i.ytimg.com/vi/37YTxPKie3Q/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLD1xpYcRTW9_yeSi9emneVJRClKEg",
+      "cinema_play": "https://www.youtube.com/watch?v=37YTxPKie3Q",
       "language": "O`zbek tilida"
     },
     {
       "id":25,
-      "name": "QOTILLAR O'YINI  (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Quyosh avlodlari 7-qism  (koreys serial) ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s15002774.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=xLMwRiO25o8",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/qotillar_o_39_yini_ozbek_kino/1-1-0-338",
+      "ImageURL": "	https://i.ytimg.com/vi/CC7A0gB5jn8/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAMgaTGcpX6U6z6DAOw6IxLimzzHA",
+      "cinema_play": "https://www.youtube.com/watch?v=CC7A0gB5jn8",
       "language": "O`zbek tilida"
     },
     {
       "id":26,
-      "name": "SEVGIMIZ UCHUN (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Risolat 1-qism",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s79256535.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=T8MckI1BqNY",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/sevgimiz_uchun_ozbek_kino/1-1-0-337",
+      "ImageURL": "https://i.ytimg.com/vi/uwlUz8St64g/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAtdD1JlPnqCWPUgBPOSpZSgCVlHw",
+      "cinema_play": "https://www.youtube.com/watch?v=uwlUz8St64g",
       "language": "O`zbek tilida"
     },
     {
       "id":27,
-      "name": "ALDAMADIM, HAZILLASHDIM 2 (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Risolat 2-qism",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s50105978.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=VKLiUHig0m8",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/aldamadim_hazillashdim_2_o_39_zbek_kino/1-1-0-334",
+      "ImageURL": "https://i.ytimg.com/vi/xtZCRLfi8VQ/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDDvHx5qvN9lQhSM5bKlNmlZ7tYvg",
+      "cinema_play": "https://www.youtube.com/watch?v=xtZCRLfi8VQ",
       "language": "O`zbek tilida"
     },
     {
       "id":28,
-      "name": "OTA UY (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Risolat 3-qism",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "	http://www.yoshlar.com/_pu/3/s27845813.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=T-UKl8Wwc5I",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/ota_uy_ozbek_kino/1-1-0-331",
+      "ImageURL": "https://i.ytimg.com/vi/Gy_YOTBxqcI/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDRbe5LOV1UeTkDCR85VP1qaMdQfw",
+      "cinema_play": "https://www.youtube.com/watch?v=T-UKl8Wwc5I",
       "language": "O`zbek tilida"
     },
     {
       "id":29,
-      "name": "YOLG'ON GIRDOBI (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Muhabbat oyatlari 1-qism ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s39183602.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=8MZ1h8X11PY",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/yolgon_girdobi_ozbek_kino/1-1-0-330",
+      "ImageURL": "https://i.ytimg.com/vi/CuT5I63mtfE/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBAidTiiEpAVJVHUyLwj3m4SYORbg",
+      "cinema_play": "https://www.youtube.com/watch?v=CuT5I63mtfE",
       "language": "O`zbek tilida"   
     },
     {
       "id":30,
-      "name": "EGIZAK OSHIQLAR (o'zbek film) ",
-      "movie_play_img": "https://www.freepngimg.com/thumb/button/63149-play-to-icons-button-youtube.-youtube-subscribe.png",
+      "name": "Muhabbat oyatlari 2-qism ",
+      "cinema_play_img": "https://static.tildacdn.com/tild3637-3532-4362-a366-386233336534/play.png",
       "ganre": ['camedy ',' detective'],
-      "ImageURL": "http://www.yoshlar.com/_pu/3/s79602310.jpg",
-      "movie_play": "https://www.youtube.com/watch?v=bnpvAbSe0aI",
-      "download": "http://www.yoshlar.com/kino/uzbekskij/egizak_oshiqlar_o_39_zbek_kino/1-1-0-327",
+      "ImageURL": "	https://i.ytimg.com/vi/Oy323uj6xRE/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCzjxs-iorzGDp7Tdc1bnU9EogBAg",
+      "cinema_play": "https://www.youtube.com/watch?v=Oy323uj6xRE",
       "language": "O`zbek tilida"
     }
 
@@ -317,44 +276,41 @@ var movies = [
 
     ];
     for ( var i=0; i < 30; i++ ){
-      var elUzbekMovieList = document.querySelector('.uzbek-movie-list');
-      var movieBox = document.createElement('li');
-      var movieImage = document.createElement('img');
-      var moviePlayImage = document.createElement('img');
+      var elCinemaList = document.querySelector('.cinema-list');
+      var cinemaBox = document.createElement('li');
+      var cinemaImage = document.createElement('img');
+      var cinemaPlayImage = document.createElement('img');
   
-      var movieName = document.createElement('p');
-      var movieGanre = document.createElement('p');
-      var movieDownload = document.createElement('a');
-      var movieImageBox = document.createElement('div');
+      var cinemaName = document.createElement('p');
+      var cinemaGanre = document.createElement('p');
+      var cinemaImageBox = document.createElement('div');
+      
+      var cinemaPlayLink = document.createElement('a');
   
-  
-  
-      var moviePlayLink = document.createElement('a');
-  
-      movieName.className ='movie-name';
-      movieBox.className ='movie-box';
-      movieImage.className='movie-img';
-      moviePlayImage.className='movie-play-icon';
-      movieGanre.className='movie-ganre';
-      movieImageBox.className='movie-img-box';
+      cinemaName.className ='cinema-name';
+      cinemaBox.className ='cinema-box';
+      cinemaImage.className='cinema-img';
+      cinemaPlayImage.className='cinema-play-icon';
+      cinemaGanre.className='cinema-ganre';
+      cinemaImageBox.className='cinema-img-box';
       
   
-      movieImage.src = movies[i].ImageURL;
-      moviePlayImage.src = movies[i].movie_play_img;
-      movieName.alt = movies[i].name;
-      movieName.textContent = movies[i].name;
-      movieGanre.textContent=movies[i].ganre;
-      moviePlayLink.href=movies[i].movie_play;
+      cinemaImage.src = cinema[i].ImageURL;
+      cinemaPlayImage.src = cinema[i].cinema_play_img;
+      cinemaName.alt = cinema[i].name;
+      cinemaName.textContent = cinema[i].name;
+      cinemaGanre.textContent=cinema[i].ganre;
+      cinemaPlayLink.href= cinema[i].cinema_play;
   
-      movieImageBox.appendChild(movieImage);
+      cinemaImageBox.appendChild(cinemaImage);
      
-      moviePlayLink.appendChild(moviePlayImage);
+      cinemaPlayLink.appendChild(cinemaPlayImage);
      
-      movieBox.appendChild(movieImageBox);
-      movieBox.appendChild(movieName);
-      movieBox.appendChild(movieGanre);
-      movieImageBox.appendChild(moviePlayLink);
-      elUzbekMovieList.appendChild(movieBox);
+      cinemaBox.appendChild(cinemaImageBox);
+      cinemaBox.appendChild(cinemaName);
+      cinemaBox.appendChild(cinemaGanre);
+      cinemaImageBox.appendChild(cinemaPlayLink);
+      elCinemaList.appendChild(cinemaBox);
   
      }
   
